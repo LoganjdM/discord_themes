@@ -1,3 +1,13 @@
+/**
+ * @name oneshot
+ * @author ClearVision Team
+ * @version 6.3.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite 7pNUC9C
+ * @BDEditor Clear Vision
+*/
 @import url('https://mentalscars.github.io/Patch/transparency.css');
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
@@ -8,7 +18,7 @@
   --success-color: #7B00FF;
   --danger-color: #F33939;
   --url-color: #0068FF;
-  --background-image: url('https://i.imgur.com/hbOu4SP.png');
+  --background-image: url('https: //i.imgur.com/8L5QdsL.png');
   --background-shading: 75%;
   --background-position: Bottom center;
   --background-size: 100%;
