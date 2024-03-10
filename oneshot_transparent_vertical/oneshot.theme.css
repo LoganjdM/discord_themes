@@ -1,0 +1,87 @@
+/**
+ * @name oneshot
+ * @author ClearVision Team
+ * @version 6.9.0
+ * @description Highly customizable and beautiful theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @website https://clearvision.github.io
+ * @invite dHaSxn3
+ * @BDEditor Clear Vision
+*/
+@import url('https://mentalscars.github.io/Patch/transparency.css');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+:root {
+  --main-color: #6820BF;
+  --hover-color: #48008D;
+  --success-color: #7B00FF;
+  --danger-color: #F33939;
+  --url-color: #0068FF;
+  --background-image: url('https://i.imgur.com/08C94PZ.png');
+  --background-shading: 75%;
+  --background-position: Bottom center;
+  --background-size: 100%;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 110%;
+  --background-contrast: 115%;
+  --background-saturation: 100%;
+  --background-grayscale: 24%;
+  --background-invert: 5%;
+  --background-blur: 2px;
+  --background-overlay: rgb(0,0,0,0);
+  --user-popout-image: url('https://preview.redd.it/4tube46nw2q91.png?width=1920&format=png&auto=webp&s=102e9c40d4a94783e89673f011dcea27148ce48a');
+  --user-popout-position: bottom right;
+  --user-popout-size: 200%;
+  --user-popout-repeat: repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 130%;
+  --user-popout-saturation: 130%;
+  --user-popout-grayscale: 75%;
+  --user-popout-invert: 5%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://preview.redd.it/4tube46nw2q91.png?width=1920&format=png&auto=webp&s=102e9c40d4a94783e89673f011dcea27148ce48a');
+  --user-modal-position: top right;
+  --user-modal-size: 200%;
+  --user-modal-repeat: repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 130%;
+  --user-modal-saturation: 130%;
+  --user-modal-grayscale: 75%;
+  --user-modal-invert: 9%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://preview.redd.it/jet4jhkn8pdb1.png?width=384&format=png&auto=webp&s=28b7c72026f3bdf486ff8bcac79cacabd8c53050');
+  --home-position: center;
+  --home-size: 50px;
+  --channel-unread: #A766FF;
+  --channel-color: rgb(217,217,217,0.78);
+  --muted-color: rgb(31,31,31,0.63);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: gg sans;
+  --code-font: Ubuntu Mono;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+}
